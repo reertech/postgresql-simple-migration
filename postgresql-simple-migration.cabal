@@ -59,6 +59,8 @@ Executable migrate
                             postgresql-simple           >= 0.4      && < 0.7,
                             time                        >= 1.4      && < 1.10,
                             text                        >= 1.2      && < 1.3
+    other-modules:          Database.PostgreSQL.Simple.Migration
+                            Database.PostgreSQL.Simple.Util
 
 test-suite tests
     main-is:                Main.hs
