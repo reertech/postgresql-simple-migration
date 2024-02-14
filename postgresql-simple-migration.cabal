@@ -42,7 +42,7 @@ Library
                             bytestring                  >= 0.10     && < 0.12,
                             cryptohash                  >= 0.11     && < 0.12,
                             directory                   >= 1.2      && < 1.4,
-                            postgresql-simple           >= 0.4      && < 0.7,
+                            postgresql-simple           >= 0.4      && < 0.8,
                             time                        >= 1.4      && < 1.13
 
 Executable migrate
@@ -56,7 +56,7 @@ Executable migrate
                             bytestring                  >= 0.10     && < 0.12,
                             cryptohash                  >= 0.11     && < 0.12,
                             directory                   >= 1.2      && < 1.4,
-                            postgresql-simple           >= 0.4      && < 0.7,
+                            postgresql-simple           >= 0.4      && < 0.8,
                             time                        >= 1.4      && < 1.13,
                             text                        >= 1.2      && < 2.1
     other-modules:          Database.PostgreSQL.Simple.Migration
@@ -72,6 +72,6 @@ test-suite tests
     type:                   exitcode-stdio-1.0
     build-depends:          base                        >= 4.6      && < 5.0,
                             bytestring                  >= 0.10     && < 0.12,
-                            postgresql-simple           >= 0.4      && < 0.7,
+                            postgresql-simple           >= 0.4      && < 0.8,
                             hspec                       >= 2.2      && < 2.11,
                             postgresql-simple-migration
