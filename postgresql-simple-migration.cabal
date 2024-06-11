@@ -73,5 +73,5 @@ test-suite tests
     build-depends:          base                        >= 4.6      && < 5.0,
                             bytestring                  >= 0.10     && < 0.12,
                             postgresql-simple           >= 0.4      && < 0.8,
-                            hspec                       >= 2.2      && < 2.11,
+                            hspec                       >= 2.2      && < 2.12,
                             postgresql-simple-migration
